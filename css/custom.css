@@ -7,10 +7,14 @@ ul#flex-container {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 ul li {
     flex-grow: 1;
+    width: 100px;
     height: 150px;
     padding-top: 45px;
     color: #fff;
@@ -29,7 +33,6 @@ ul li:nth-child(2) {
 
 ul li:nth-child(3) {
     background: #c7b600;
-    flex-grow: 2
 }
 
 ul li:nth-child(4) {
@@ -38,9 +41,10 @@ ul li:nth-child(4) {
 
 ul li:nth-child(5) {
     background: #00a378;
-    flex-grow:5;
 }
 
 ul li:last-child {
     background: #00ea72;
 }
+
+
